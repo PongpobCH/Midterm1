@@ -1,0 +1,73 @@
+h1{
+    
+    background-color: lightblue;
+    color: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 54px;
+    
+    
+    
+}
+
+
+body{
+    background-color: rgb(107, 176, 255);
+}
+
+div{
+    text-align: center;
+}
+
+#image1{
+    margin: auto;
+    width: 25%;
+    border: 5px solid black;
+}
+.name{
+    
+    text-align: center;
+    background-color: azure;
+
+}
+.Resume{
+    
+
+    padding-left: 10px;
+    text-align: left;
+    background-color:  aliceblue;
+    margin-bottom: 24px;
+    padding-bottom: 5px;
+    
+}
+
+
+.contactlist{
+
+    padding-left: 10px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: left;
+    background-color: aliceblue;
+    margin-bottom: 10px ;
+
+
+}
+
+h5{
+
+
+}
+
+
+
+h7{
+
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    background-color: rgb(255, 255, 255);
+
+}
+
+

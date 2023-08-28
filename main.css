@@ -23,6 +23,13 @@ div{
     width: 25%;
     border: 5px solid black;
 }
+
+#image2{
+
+    margin-top: 20px;
+    width : 25% 
+
+}
 .name{
     
     text-align: center;
@@ -53,21 +60,41 @@ div{
 
 }
 
-h5{
+.project_title
+{
+    
+    padding-left: 10px; 
+    padding-right: 10px; 
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border: dashed 5px rgb(90, 90, 172)
 
 
+}
+ 
+h8
+{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    text-align: left;
+   
+    background-color: aqua;
 }
 
 
 
 h7{
 
-    padding-left: 10px; 
-    padding-right: 10px; 
-    font-size: 48px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
-    background-color: rgb(255, 255, 255);
+    
+    
 
 }
+
+
+
 
 

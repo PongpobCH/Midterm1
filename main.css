@@ -1,6 +1,6 @@
 h1{
     
-    background-color: lightblue;
+    background-color: white;
     color: darkblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 54px;
@@ -88,12 +88,17 @@ h8
 #button1
 {
 
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     color: rgb(58, 58, 58);
     background-color: rgb(240, 205, 205);
+    
 
 
+}
+#Project
+{
+    padding-right: 30px;
 }
 
 

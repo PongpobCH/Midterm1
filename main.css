@@ -1,29 +1,69 @@
 @font-face
 {
-    font-family: myfont;
-    src:url(Font/Gabarito-Regular.ttf);
+    font-family: Martian;
+    src:url(Font/MartianMono_Condensed-Bold.ttf);
 }
 
+/* ------- TEXT in Index -------*/
 
-
-text1{
+textPortFolio{
     
-
-    
+    padding-inline: 20px;
+    padding-block:  20px;
     background-color: white;
     color: darkblue;
-    font-family:myfont;
+    font-family:Martian;
     font-size: 54px;
     float: right;
-    
+    border: dotted 3px rgb(71, 71, 71);
+    font-stretch: expanded
     
     
 }
+
+
+
+
+
+
+/* ------- Div in Index -------- */
+        
+
+        .flexbox {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-end;
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        .item{
+            
+            display: block;
+            box-sizing: border-box;
+            width: 33.33%;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            background-color: rgb(182, 255, 169);
+            border: 2px solid black;
+            padding: 17px;
+        }
+
+
+
+
 
 
 body{
 
-    background-color: rgb(107, 176, 255);
+    background-image:  url("picture/Background.png");
 }
 
 
@@ -37,26 +77,40 @@ body{
 
 }
 
-#image2{
+#ImageProjectMusic{
 
     margin-top: 20px;
     width : 25% 
 
 }
-.name{
+.Name{
     
-    text-align: center;
-    background-color: azure;
+   text-align: left;
+   margin-bottom: 100px;
 
 }
 .Resume{
     
-
+    padding-top: 30px;
     padding-left: 10px;
-    text-align: left;
-    background-color:  aliceblue;
-    margin-bottom: 24px;
-    padding-bottom: 5px;
+    
+    margin-bottom: 30px;
+    padding-bottom: 200px;
+    
+}
+
+textInterested{
+
+    margin-block: 20px;
+    
+
+}
+textHobbies{
+
+padding-left: 30px;
+    
+    
+    
     
 }
 
@@ -73,19 +127,7 @@ body{
 
 }
 
-.project_title
-{
-    
-    padding-left: 10px; 
-    padding-right: 10px; 
-    font-size: 48px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    border: dashed 5px rgb(90, 90, 172)
 
-
-}
  
 h8
 {
@@ -100,11 +142,12 @@ h8
 
 #button1
 {
-
+    
+    margin-top: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    color: rgb(58, 58, 58);
-    background-color: rgb(240, 205, 205);
+    font-size: 50px;
+    color: rgb(0, 255, 174);
+    background-color: rgb(83, 76, 192);
     
 
 
@@ -113,6 +156,57 @@ h8
 {
     padding-right: 30px;
 }
+
+
+
+/* CSS in Projects */ 
+
+    /* All Div */
+
+        .project_title
+        {
+            
+            text-align: left;
+            padding: 30px 0;
+            
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 40px;
+            
+        
+        }
+
+            
+
+         /* ALL Text */
+
+            pProject{
+                text-align: left;
+                padding-left: 30px;
+                font-size: 48px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+            }
+
+            
+
+            
+
+            
+            
+            textArt1
+            {
+                text-align: left;
+            }
+
+            textArt2
+            {
+                text-align: left;
+            }
+
+            textArt3
+            {
+
+                text-align: left;
+            }
 
 
 

@@ -10,12 +10,12 @@ textPortFolio{
     
     padding-inline: 20px;
     padding-block:  20px;
-    background-color: white;
-    color: darkblue;
+    
+    color: rgb(210, 210, 255);
     font-family:Martian;
     font-size: 54px;
     float: right;
-    border: dotted 3px rgb(71, 71, 71);
+    border: dotted 3px rgb(255, 255, 255);
     font-stretch: expanded
     
     
@@ -24,7 +24,7 @@ textPortFolio{
 h2{
     
     font-family: Martian;
-    color: gold;
+    color: white;
 }
 
 h4{
@@ -36,6 +36,48 @@ h4{
 
 }
 
+h3{
+    font-size: 24px;
+    padding-left: 30px;
+    color: white;
+    font-family: Martian;
+}
+
+h8
+{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    text-align: left;
+   
+    background-color: aqua;
+}
+
+textfacebook{
+    
+   
+    padding-left: 10px;
+
+    
+}
+textinstagram{
+
+    padding-left: 10px;
+}
+
+textInterested{
+
+    margin-block: 20px;
+    
+
+}
+textHobbies{
+
+padding-left: 30px;
+    
+
+}
 
 
 
@@ -66,12 +108,18 @@ h4{
         }
 
         .content {
+            text-align: center;
             background-color: rgb(182, 255, 169);
             border: 2px solid black;
             padding: 17px;
         }
         #Project{
             text-align: center;
+        }
+        .content2{
+            background-color: rgb(182, 255, 169);
+            text-align: center;
+            padding: 17px;
         }
 
 
@@ -95,12 +143,7 @@ body{
 
 }
 
-#ImageProjectMusic{
 
-    margin-top: 20px;
-    width : 25% 
-
-}
 .Name{
     
    text-align: left;
@@ -117,20 +160,7 @@ body{
     
 }
 
-textInterested{
 
-    margin-block: 20px;
-    
-
-}
-textHobbies{
-
-padding-left: 30px;
-    
-    
-    
-    
-}
 
 
 .contactlist{
@@ -147,16 +177,7 @@ padding-left: 30px;
 
 
  
-h8
-{
 
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-    text-align: left;
-   
-    background-color: aqua;
-}
 
 #button1
 {
@@ -175,6 +196,18 @@ h8
     padding-right: 30px;
 }
 
+#FacebookIcon{
+    
+    transform: translateY(5px);
+    width: 15%;
+    
+}
+
+#InstagramIcon
+{
+    transform: translateY(10px);
+    width: 15%;
+}
 
 
 /* CSS in Projects */ 
@@ -184,13 +217,36 @@ h8
         .project_title
         {
             
-            text-align: left;
+            text-align: center;
             padding: 30px 0;
             
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(182, 255, 169);
             margin-bottom: 40px;
             
         
+        }
+
+        .content3{
+            background-color: rgb(182, 255, 169);
+            text-align: center;
+            padding: 17px;
+            border: dashed 3px black;
+        }
+        .subtopic{
+
+            text-align: center;
+            background-color: rgba(169, 211, 255, 0.726);
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding-block: 10px;
+
+        }
+        .subtopic2{
+            text-align: center;
+            background-color: rgba(169, 211, 255, 0.726);
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding-block: 10px;
         }
 
             
@@ -202,11 +258,47 @@ h8
                 padding-left: 30px;
                 font-size: 48px;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+           
+            }
+            pTopic{
+
+                
+                font-size: 24px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+           
+                
             }
 
-            
+            h5{
+                font-size: 16px;
+            }
 
+
+        /* ALL ID */
+
+        #ImageProjectMusic{
+
+            margin-top: 10px;
+            width : 50% 
+        
+        }
+        #GameDevYear2
+        {
+            width: 100%;
+            margin-top: 10px;
+        }
+        #Webdesign
+        {
+            width: 100%;
+            margin-top: 10px;
             
+        }
+        #Gamemockup
+        {
+            width: 100%;
+            margin-top: 10px;
+        }
+                      
 
             
             
